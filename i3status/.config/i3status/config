@@ -1,0 +1,17 @@
+general {
+        colors = true
+        interval = 5
+}
+
+order += "ethernet enp38s0"
+order += "time"
+
+ethernet enp38s0 {
+	format_up = "(%speed)"
+	format_down = "no interwebz"
+}
+
+time {
+        format = "%b, %d %Y  %I:%M%p"
+}
+
