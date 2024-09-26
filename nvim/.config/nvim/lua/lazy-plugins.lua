@@ -13,14 +13,12 @@ require("lazy").setup({
 	-- NOTE: Plugins can be added with a link (or for a github repo: 'owner/repo' link).
 	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
 	{
-		"catppuccin/nvim",
-		name = "catppuccin",
+		"bluz71/vim-moonfly-colors",
+		name = "moonfly",
+		lazy = false,
 		priority = 1000,
 		init = function()
-			require("catppuccin").setup({
-				flavour = "mocha",
-			})
-			vim.cmd.colorscheme("catppuccin")
+			vim.cmd([[colorscheme moonfly]])
 		end,
 	},
 	-- NOTE: Plugins can also be added by using a table,
