@@ -64,7 +64,7 @@ vim.opt.scrolloff = 100
 
 -- Mine from other sources
 vim.opt.wrap = false
-vim.opt.colorcolumn = "100"
+vim.opt.colorcolumn = '100'
 
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
@@ -74,7 +74,7 @@ vim.opt.autoindent = true
 vim.opt.cursorline = true
 
 vim.opt.termguicolors = true
-vim.opt.background = "dark"
+vim.opt.background = 'dark'
 
 vim.opt.swapfile = false
 
